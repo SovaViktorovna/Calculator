@@ -1,0 +1,63 @@
+body {
+background: -webkit-linear-gradient(76deg, rgb(20, 22, 24), rgb(72, 42, 6));
+background: linear-gradient(76deg, rgb(20, 22, 24), rgb(72, 42, 6));
+display: flex;
+justify-content: center;
+
+}
+
+.wrapper {
+  background-color: #5554;
+  min-width: 30%;
+  height: 500px;
+  display: grid;
+  justify-content: center;
+}
+
+input{
+  margin-right: 5px;
+  margin-left: 5px;
+  height: 40px;
+  background-color: #5554;
+  margin-top: 80px;
+  border-radius: 5px;
+  border-color: #555;
+  font-size: 1.5rem;
+  border-top: none;
+  border-left: none;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.267);
+  outline: none;
+  color:rgb(194, 191, 191);
+  text-align: center;
+}
+
+.operating_buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.operating_buttons button {
+  font-size: 1.5rem;
+  background-color: #5554;
+  border-color: #5554;
+  color:rgb(194, 191, 191);
+}
+
+
+.wrapper_batton_equals {
+  display: flex;
+  justify-content: center;
+  color:rgb(194, 191, 191);
+}
+
+#button_equals {
+  width: 100px;
+  height: 40px;
+  background-color: #5554;
+  border-color: #5554;
+  font-size: 2rem;
+  color:rgb(194, 191, 191);
+}
+
